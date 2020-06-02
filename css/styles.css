@@ -2,11 +2,11 @@
   display: none;
 }
 
-.flashcard {
+.flashcard p:not(.hidden) {
   cursor: pointer;
-  color: blue
+  color: blue;
 }
 
-.flashcard:hover {
+.flashcard:hover p:not(.hidden) {
   text-decoration: underline;
 }
