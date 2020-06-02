@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+
+.flashcard {
+  cursor: pointer;
+  color: blue
+}
+
+.flashcard:hover {
+  text-decoration: underline;
+}
